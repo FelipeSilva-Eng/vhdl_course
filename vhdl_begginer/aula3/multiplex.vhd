@@ -20,7 +20,7 @@ process (A, B, C, D, S0, S1) is
         Z <= A when S1='0' and S0='0' else
              B when S1='0' and S0='1' else
              C when S1='1' and S0='0' else
-            when S1='1' and S0='1';
+             D when S1='1' and S0='1';
 end process;
 end behavior;
 

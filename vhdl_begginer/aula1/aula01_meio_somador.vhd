@@ -6,7 +6,7 @@ entity half_adder is
         a, b            :   in bit; -- é bit pq os valores só assumir 0 ou 1
         sum, carry      :   out bit
     );
-end half_adder
+end half_adder;
 
 architecture structure_half_ader of half_adder is
 begin
